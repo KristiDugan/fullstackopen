@@ -1,0 +1,17 @@
+title 0.6 SPA - User creates new note
+
+note over browser:
+user enters text input & submits form
+The POST request to the address new_note_spa
+contains the new note as JSON-data
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+server-->browser: Status 201 Created (no redirect)
+
+note over browser:
+spa.js event handler prevents default form submit.
+New note is created, pushed to notes list on server,
+notes list rerendered on page
+end note
