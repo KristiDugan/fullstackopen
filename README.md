@@ -1,4 +1,4 @@
-# fullstackopen
+# fullstackopen 2020
 
 ## part0 exercises
 
@@ -15,4 +15,4 @@
 - [x] 1.2
 - [x] 1.3
 - [x] 1.4
-- [ ] 1.5
+- [x] 1.5
